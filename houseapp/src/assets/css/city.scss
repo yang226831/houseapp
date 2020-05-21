@@ -1,0 +1,66 @@
+#city {
+  >#scroll {
+    >div:first-of-type {
+      position     : relative;
+      display      : flex;
+      padding      : 0.2em 1em;
+      border-bottom: 1px solid #ccc;
+
+      img {
+        width   : 20px;
+        height  : 20px;
+        position: absolute;
+      }
+
+      p {
+        margin     : auto;
+        line-height: 20px;
+        font-weight: bold;
+      }
+    }
+
+    >div:not(:first-of-type) {
+      >p:first-of-type {
+        font-size    : 12px;
+        background   : rgb(236, 234, 234);
+        padding      : 0.5em 1em;
+        border-bottom: 1px solid #ccc;
+        border-top   : 1px solid #ccc;
+      }
+
+      >div>p {
+        font-weight: bold;
+        margin-left: 1em;
+        padding    : 1em 0;
+
+        &:not(:last-of-type) {
+          border-bottom: 1px solid #ccc;
+        }
+      }
+    }
+  }
+
+
+
+
+  >div:last-of-type {
+    position   : fixed;
+    top        : 19%;
+    right      : 1em;
+    text-align : center;
+    font-weight: bold;
+
+    >p:first-of-type {
+      font-size    : 14px;
+      background   : #F5F5F9;
+      padding      : 0;
+      border-bottom: none;
+      border-top   : none;
+    }
+
+    p {
+      padding  : 0.1em 0;
+      font-size: 12px;
+    }
+  }
+}

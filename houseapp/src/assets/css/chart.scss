@@ -1,0 +1,29 @@
+.chart{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  >div{
+    width: 100%;
+    margin: 0 2em;
+    background: #fff;
+    align-self: center;
+    img{
+      margin: 1em 0;
+    }
+    p{
+      font-size: 1.2em;
+      span{
+        color: #1AAD00;
+        font-weight: bold;
+      }
+    }
+    p:first-of-type{
+      padding: 1em 0;
+    }
+    p:last-of-type{
+      padding:  0 0 1em 0 ;
+    }
+  }
+
+}

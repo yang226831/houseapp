@@ -1,0 +1,30 @@
+{
+  "id": "1827942",
+  "name": "app房产",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "14794195",
+      "name": "搜索",
+      "font_class": "tubiao1-copy",
+      "unicode": "e6e2",
+      "unicode_decimal": 59106
+    },
+    {
+      "icon_id": "14794087",
+      "name": "下标",
+      "font_class": "shangchuanicon_fuzhi_fuzhi-copy",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "14793884",
+      "name": "定位",
+      "font_class": "dingwei1-copy-copy",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    }
+  ]
+}
